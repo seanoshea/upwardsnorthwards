@@ -1,6 +1,16 @@
 body {
   font-family: 'Arvo', serif;
   background:#FEFEFE;
-  text-color:#333;
+  text-color:#111;
   padding:20px;
+}
+p {
+  color:#444;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display:inline;
+  padding:0 10px 0 0;
 }
