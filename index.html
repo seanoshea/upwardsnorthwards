@@ -8,44 +8,90 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Upwards Northwards Software Limited</title>
         <meta name="description" content="Native iOS and Android application development in London">
+        <meta name="author" content="Sean O'Shea">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/upwardsnorthwards.css">
-
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <script src="js/modernizr.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <h1>Upwards Northwards Software Limited</h1>
-        <p>Native iOS and Android application development in London.</p>
-        <h2>Links</h2>
-        <ul>
-          <li><a href="http://www.github.com/seanoshea">Github</a></li>
-          <li><a href="http://www.twitter.com/seanoshea">Twitter</a></li>
-          <li><a href="http://uk.linkedin.com/in/soshea/">LinkedIn</a></li>
-        </ul>
-        <h2>Apps</h2>
-        <ul>
-          <li><a href="https://itunes.apple.com/us/app/blue-plaques-london/id807738209">Blue Plaques London iOS app</a></li>
-          <li><a href="https://itunes.apple.com/gb/app/exchange-betting-from-betfair/id347621336?mt=8">Betfair Exchange iOS app</a></li>
-          <li><a href="https://itunes.apple.com/gb/app/eye-fi/id306011124?mt=8">Eye-Fi iOS app</a></li>
-          <li><a href="https://play.google.com/store/apps/details?id=fi.eye.android">Eye-Fi Android app</a></li>
-        </ul>
-        <h2>Contact</h2>
-        <p>If you have an interesting project and you think I could help, please email me at <a href="mailto:oshea.ie@gmail.com">oshea.ie@gmail.com</a></p>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
+    <header id="home">
+      <nav id="nav-wrap">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Upwards Northwards Software</h1>
+            <h3>Native <span>iOS</span> and <span>Android</span> mobile development based in <span>London</span>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="http://www.github.com/seanoshea"><i class="fa fa-github"></i></a></li>
+               <li><a href="http://www.twitter.com/seanoshea"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="http://uk.linkedin.com/in/soshea"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="http://www.instagram.com/seanoshea"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+         </div>
+      </div>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+     </header>
+    <section id="portfolio">
+      <div class="row">
+        <div class="twelve columns collapsed">
+          <h1>A list of some applications that I've developed.</h1>
+          <ul>
+            <li><a href="https://itunes.apple.com/us/app/blue-plaques-london/id807738209">Blue Plaques London iOS app</a></li>
+            <li><a href="https://itunes.apple.com/gb/app/exchange-betting-from-betfair/id347621336?mt=8">Betfair Exchange iOS app</a></li>
+            <li><a href="https://itunes.apple.com/gb/app/eye-fi/id306011124?mt=8">Eye-Fi iOS app</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=fi.eye.android">Eye-Fi Android app</a></li>
+          </ul>
+        </div>
+      </div>
+    </section> <!-- Portfolio Section End-->
+        <section id="contact">
+          <div class="row section-head">
+            <div class="two columns header-col">
+              <h1><span>Contact</span></h1>
+            </div>
+            <div class="ten columns">
+                <p class="lead">If you have an interesting project and you think I could help, please email me at <a href="mailto:oshea.ie@gmail.com">oshea.ie@gmail.com</a></p>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="row">
+            <div class="twelve columns">
+              <ul class="social-links">
+                <li><a href="http://www.github.com/seanoshea"><i class="fa fa-github"></i></a></li>
+                <li><a href="http://www.twitter.com/seanoshea"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="http://uk.linkedin.com/in/soshea"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="http://www.instagram.com/seanoshea"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+              <ul class="copyright">
+                <li>&copy; Copyright 2014 Upwards Northwards Software Limited</li>
+              </ul>
+            </div>
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+          </div>
+        </footer>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/waypoints.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/init.js"></script>
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
