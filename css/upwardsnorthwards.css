@@ -1,0 +1,12 @@
+.mfp-content img {
+  margin: 20px 0 0 150px;
+}
+.mfp-content .ipad img {
+  margin: 0;
+}
+.mfp-content .iphone img {
+  margin: 20px 0 0 175px;
+}
+.mfp-content .android img {
+  margin: 20px 0 0 100px;
+}
